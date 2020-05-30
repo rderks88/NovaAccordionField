@@ -11,3 +11,34 @@ A simple vue.js accordion component for Laravel Nova.
 ```
 composer require imumz/nova-accordion-field
 ```
+
+### Usage
+
+```
+use Imumz\NovaAccordionField\NovaAccordionField;
+...
+public function fields(Request $request)
+    {
+        $array = [
+            0 => [
+                'name' => 'John Doe',
+                'text' => 'john@example.com'
+            ],
+            1 => [
+                'name' => 'Jane Doe',
+                'text' => 'jane@example.com'
+            ],
+            2 => [
+                'name' => 'Tom Doe',
+                'text' => 'tom@example.com'
+            ],
+        ];
+
+        return [
+            NovaAccordionField::make('')
+            ->data($array)
+            ->title('name')
+            ->description('text')
+        ];
+    }
+```
