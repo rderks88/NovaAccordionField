@@ -16,7 +16,9 @@ class NovaAccordionField extends Field
      */
     public $component = 'nova-accordion-field';
 
+
     public function data($data){
+        
         return $this->withMeta([
             'data' => $data
         ]);
@@ -34,7 +36,7 @@ class NovaAccordionField extends Field
         ]);
     }
 
-    public function titleBgColor($titleBgColor){
+    /*public function titleBgColor($titleBgColor){
         return $this->withMeta([
             'titleBgColor' => $titleBgColor
         ]);
@@ -44,6 +46,6 @@ class NovaAccordionField extends Field
         return $this->withMeta([
             'titleColor' => $titleColor
         ]);
-    }
+    }*/
 
 }
