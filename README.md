@@ -1,5 +1,5 @@
 ![](https://img.shields.io/github/stars/iMuMz/NovaAccordionField?&style=flat-square)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/iMuMz/NovaAccordionField?color=yellow&style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/iMuMz/NovaAccordionField?color=orange&style=flat-square)
 ![Packagist](https://img.shields.io/packagist/dt/imumz/nova-accordion-field?color=green&logo=testing&style=flat-square)
 # NovaAccordionField
 A simple vue.js accordion component for Laravel Nova.
