@@ -7,7 +7,7 @@ use Laravel\Nova\Fields\Field;
 class NovaAccordionField extends Field
 {
     public $showOnUpdate = false;
-    public $showOnIndex = false;
+    public $showOnIndex = true;
 
     /**
      * The field's component.
